@@ -10,7 +10,7 @@ This function returns the author's ID \(The one who ran the command\)
 
 ```javascript
 bot.command({
-    name: "userID",
+    name: "id",
     code: `Your ID is \`$authorID\``
 });
 ```
