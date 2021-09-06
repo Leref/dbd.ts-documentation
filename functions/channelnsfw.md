@@ -15,5 +15,5 @@ This function has one field.
 
 ### NSFW-Only Limiter
 ```
-$onlyIf[$channelNSFW[$channelID]==true;You need to use that command in a NSFW channel!]`
+$onlyIf[$channelNSFW[$channelID]==true;You need to use that command in a NSFW channel!]
 ```
