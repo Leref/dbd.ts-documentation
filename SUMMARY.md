@@ -19,4 +19,4 @@
 * [$authorID](functions/authorid.md)
 
 ## Typedefs
-* [ImageSizes](functions/ImageSizes.md)
+* [ImageSizes](functions/imagesizes.md)
