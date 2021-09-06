@@ -21,15 +21,16 @@
 npm install dbd.ts
 ```
 
-### Example
+## Main File
+Once DBD.TS has been installed, you can paste-in and modify this example in your `index.js` file.
+
 ```js
 const dbd = require("dbd.ts")
 
 const bot = new dbd.Bot({
-    intents: ["GUILDS", "GUILD_MESSAGES"], //Discord Intents
-    prefix: "PREFIX" //Discord Client Prefix
+    intents: ["GUILDS", "GUILD_MESSAGES"],
+    prefix: "PREFIX"
 })
-
 
 bot.addEvent([
     "onMessage"
@@ -38,11 +39,19 @@ bot.addEvent([
 bot.commands.add({
     type: "basicCommand",
     name: "ping",
-    code: "Pong! $pingms"
+    code: `🏓 Pong! $pingms`
 })
 
-bot.login("Discord Bot Token")
+bot.commands.add({
+    type: "basicCommand",
+    name: "eval",
+    code: `$onlyForIDs[$botOwnerID;]
+$eval[$message]`
+})
+
+bot.login("TOKEN")
 ```
+> 'PREFIX' must be replaced with a prefix. 'TOKEN' must be replaced with your bot's token. 
 
 ## Support
-If you need support or have questions to ask, you can join our [Discord Server!](https://discord.gg/HMUfMXDQsV)
+If you need support or have questions, you can join our [Discord Server](https://discord.gg/HMUfMXDQsV)!
