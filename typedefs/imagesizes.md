@@ -9,4 +9,4 @@
 - 2048 *(default)*
 - 4096 *(highest quality)*
 
-Refenced In: [$authorAvatar](/functions/authoravatar.md)
+*Refenced In: [$authorAvatar](/functions/authoravatar.md)*
