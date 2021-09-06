@@ -6,4 +6,4 @@
 - `<` - Less Than
 - `>` - Greater Than
 
-*Referenced In: [$onlyIf](functions/onlyif.md)*
+*Referenced In: [$onlyIf](./functions/onlyif.md)*
