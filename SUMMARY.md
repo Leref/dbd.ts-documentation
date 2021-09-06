@@ -15,7 +15,7 @@
 * [$archiveThread](functions/archivethread.md)
 * [$attachment](functions/attachment.md)
 * [$author](functions/author.md)
-* [$authorAvatar](functions/authorAvatar.md)
+* [$authorAvatar](functions/authoravatar.md)
 * [$authorID](functions/authorid.md)
 
 ## Typedefs
