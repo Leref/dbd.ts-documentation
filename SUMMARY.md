@@ -20,7 +20,14 @@
 * [$authorID](functions/authorid.md)
 * [$ban](functions/ban.md)
 * [$banCount](functions/bancount.md)
-* [$botOwnerID](botowner.md)
+* [$botOwnerID](functions/botowner.md)
+* [$callFunction](functions/callfunction.md)
+* [$channelCategoryID](functions/channelcategoryid.md)
+* [$channelExists](functions/channelexists.md)
+* [$channelGuildID](functions/channelguildid.md)
+* [$channelID](functions/channelid.md)
+* [$channelName](functions/channelname.md)
+* [$channelNSFW](functions/channelnsfw.md)
 
 ## Typedefs
 * [ImageSizes](typedefs/imagesizes.md)
