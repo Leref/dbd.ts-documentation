@@ -16,3 +16,6 @@
 * [$attachment](functions/attachment.md)
 * [$author](functions/author.md)
 * [$authorID](functions/authorid.md)
+
+## Typedefs
+* [ImageSizes](functions/ImageSizes.md)
