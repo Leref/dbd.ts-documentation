@@ -1,24 +1,18 @@
 ---
-description: Returns the ID of the user who ran the command.
+description: Returns the ID of the user who ran this command.
 ---
 
 # $authorID
 
-This function returns the author's ID 
-
-*The one who ran the command*
-
-#### Usage
-
-```javascript
+## Usage
+```php
 $authorID
 ```
 
-#### Example Usage
-
+## Example
 ```javascript
-bot.command({
+bot.commands.add({
     name: "id",
     code: `Your ID is \`$authorID\``
-});
+})
 ```
