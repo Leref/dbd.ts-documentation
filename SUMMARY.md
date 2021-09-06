@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Changelog](changelog.md)
 
 ## Functions
 * [$addActionRow](functions/addactionrow.md)
@@ -17,6 +18,10 @@
 * [$author](functions/author.md)
 * [$authorAvatar](functions/authoravatar.md)
 * [$authorID](functions/authorid.md)
+* [$ban](functions/ban.md)
+* [$banCount](functions/bancount.md)
+* [$botOwnerID](botowner.md)
 
 ## Typedefs
 * [ImageSizes](typedefs/imagesizes.md)
+* [ButtonStyles](typedefs/buttonstyles.md)
