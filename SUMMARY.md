@@ -28,7 +28,10 @@
 * [$channelID](functions/channelid.md)
 * [$channelName](functions/channelname.md)
 * [$channelNSFW](functions/channelnsfw.md)
+* [$channelSendMessage](functions/channelsendmessage.md)
+* [$checkCondition](functions/checkcondition.md)
 
 ## Typedefs
-* [ImageSizes](typedefs/imagesizes.md)
 * [ButtonStyles](typedefs/buttonstyles.md)
+* [ComparisonSymbols](typedefs/comparisonsymbols.md)
+* [ImageSizes](typedefs/imagesizes.md)
