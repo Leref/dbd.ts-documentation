@@ -1,20 +1,23 @@
+---
+description: Adds a button to this action row.
+---
+
 # $addButton
 
-Adds a button to this action row.
-
 ### Usage
-
-```php
-$addButton[customID | link;label;style;emoji;disabled (yes/no)]
+```
+$addButton[customID/link;label;style;emoji;disabled (yes/no)]
 ```
 
-This function has 5 fields.
+This function has five fields.
 
-1. `customID | link` - The customID or link of this button. \| Required
-2. `label` - The label that this button displays. \| Required
-3. `style` - The style of this button. Can be `primary`, `secondary`, `success`, `danger`, `link`. [\(see button style previews\)](https://imgur.com/GK4HptH) \| Required
-4. `emoji` - The emoji that will appear to the left of the `label`, leave empty for no emoji. \| Optional
-5. `disabled` - Whether this button should be disabled or not. \| Required
+| Field | Description | Type | Required |
+| :--- | :--- | :--- | :--- |
+| customID/link | The customID or link of this button. | string | yes |
+| label | The label that this button displays. | string | yes |
+| style | The style of this button. | string [(ButtonStyle)](typedefs/buttonstyles.md) | yes |
+| emoji | The emoji that will appear to the left of the `label`, leave empty for no emoji. | string | no |
+| disabled | Whether this button should be disabled or not. | boolean | yes
 
 {% hint style="info" %}
 There can be up to 5 buttons per action row.
@@ -23,7 +26,6 @@ There can be up to 5 buttons per action row.
 ### Example
 
 Link Button:
-
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -35,7 +37,6 @@ $addButton[https://npmjs.com/package/dbd.ts;DBD.TS;link;;no]`
 ```
 
 Regular Button:
-
 ```javascript
 bot.commands.add({
     type: "buttonCommand",
@@ -50,4 +51,3 @@ $addActionRow
 $addButton[click;Click Me!;primary;;no]`
 })
 ```
-
