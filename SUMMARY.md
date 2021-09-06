@@ -14,4 +14,5 @@
 * [$approximateMemberCount](functions/approximatemembercount.md)
 * [$archiveThread](functions/archivethread.md)
 * [$attachment](functions/attachment.md)
+* [$author](functions/author.md)
 * [$authorID](functions/authorid.md)
