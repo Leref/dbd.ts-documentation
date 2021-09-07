@@ -30,6 +30,11 @@
 * [$channelNSFW](functions/channelnsfw.md)
 * [$channelSendMessage](functions/channelsendmessage.md)
 * [$checkCondition](functions/checkcondition.md)
+* [$clearMessages](functions/clearmessages.md)
+* [$clearUserMessages](functions/clearusermessages.md)
+* [$clientID](functions/clientid.md)
+* [$clientToken](functions/clienttoken.md)
+* [$cloneChannel](functions/clonechannel.md)
 
 ## Typedefs
 * [ButtonStyles](typedefs/buttonstyles.md)
