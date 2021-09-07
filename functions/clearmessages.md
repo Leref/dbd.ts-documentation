@@ -21,7 +21,7 @@ bot.commands.add({
   type: "basicCommand",
   name: "clear",
   code: `Successfully purged \`$clearMessages[$channelID;$message;yes]\` messages.
-  $onlyIf[$isNumber[$message]==true;Please provide how many message to clear. Usage: \`!clear (amount)\`]
+  $onlyIf[$isNumber[$message]==true;Please provide how many messages to clear. Usage: \`!clear (amount)\`]
   $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]`
 })
 ```
