@@ -21,7 +21,7 @@ This function has four fields.
 bot.commands.add({
   type: "basicCommand",
   name: "clear-user",
-  code: `Successfully purged \`$clearUserMessages[$channelID;$mentioned[1];$message[1];yes]\` messages.
+  code: `Successfully purged \`$clearUserMessages[$channelID;$mentioned[1];$message[1];yes]\` messages by $userTag[$mentioned[1]].
   $onlyIf[$mentioned[1]!=;Please mention someone. Usage: \`!clear (amount) (user)\`]
   $onlyIf[$isNumber[$message[1]]==true;Please provide how many message to clear. Usage: \`!clear (amount) (user)\`]
   $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]`
