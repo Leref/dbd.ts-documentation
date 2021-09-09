@@ -1,8 +1,9 @@
---- 
+---
 description: Clones the provided channel.
 ---
 
 # $cloneChannel
+
 ### Usage
 ```php
 $cloneChannel[channelID;returnChannelID]
