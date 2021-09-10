@@ -4,7 +4,7 @@
 * [Changelog](changelog.md)
 
 ## Guides
-* [Context Menus](guides/contextmenus.md)
+* [Context Menus](guides/context-menus.md)
 
 ## Functions
 * [$addActionRow](functions/addactionrow.md)
