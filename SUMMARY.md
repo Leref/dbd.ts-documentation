@@ -3,6 +3,9 @@
 * [Welcome](README.md)
 * [Changelog](changelog.md)
 
+## Guides
+* [Context Menus](guides/contextmenus.md)
+
 ## Functions
 * [$addActionRow](functions/addactionrow.md)
 * [$addButton](functions/addbutton.md)
