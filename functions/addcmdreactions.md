@@ -12,7 +12,9 @@ $addCmdReactions[emoji(s)]
 
 This function has one field.
 
-1. `emoji(s)` - The emojis to react with, separate emojis using `;`. \| Required
+| Field | Description | Type | Required |
+| :--- | :--- | :--- | :--- |
+| emoji(s) | The emojis to react with, separate emojis using `;`. | string | yes |
 
 ### Examples
 
@@ -31,4 +33,3 @@ bot.commands.add({
     code: `$addCmdReactions[🎉;✔]`
 })
 ```
-
