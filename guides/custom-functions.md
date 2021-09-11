@@ -1,17 +1,17 @@
 # Custom Functions
-DBD.TS allows you to create your own custom functions! ✨\
+DBD.TS allows you to create your own custom functions! ✨
+
 Custom functions can be used as a way to condense and optimize codes.
 
-### Creating a Custom Function
-_Template:_
+#### Creating a Custom Function
+**Template:**
 ```js
 bot.createFunction({
     name: "name", //The name of this custom function
     code: `code` //The code to execute when the function is called
 })
 ```
-
-_Example:_
+**Example:**
 ```js
 bot.createFunction({
     name: "userdata",
@@ -19,10 +19,10 @@ bot.createFunction({
 })
 ```
 
-### Using Custom Functions
+#### Using Custom Functions
 Custom functions called using `$callFunction[]`.
 
-_Example:_
+**Example:**
 ```js
 bot.command({
     type: "basicCommand",
