@@ -20,8 +20,6 @@ bot.createFunction({
 ```
 
 ### Using Custom Functions
-_Explanation:_
-
 Custom functions called using `$callFunction[]`.
 
 _Example:_
