@@ -5,6 +5,7 @@
 
 ## Guides
 * [Context Menus](guides/context-menus.md)
+* [Custom Functions](guides/custom-functions.md)
 
 ## Functions
 * [$addActionRow](functions/addactionrow.md)
