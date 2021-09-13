@@ -22,4 +22,4 @@ bot.addVariable({
 ### Variable Types
 - `TEXT` - A string of characters.
 - `INTEGER` - A number without decimals.
-- `FLOAT` - A number with decimals.
+- `FLOAT` - A number with or without decimals.
