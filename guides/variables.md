@@ -15,7 +15,7 @@ bot.addVariable({
 bot.addVariable({
   name: "Money",
   type: "INTEGER",
-  default: "0"
+  default: 0
 })
 ```
 
