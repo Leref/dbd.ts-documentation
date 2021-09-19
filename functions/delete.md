@@ -19,3 +19,4 @@ bot.commands.add({
 $get[text]
 $delete[text]`
 })
+```
