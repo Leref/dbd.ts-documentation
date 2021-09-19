@@ -14,8 +14,8 @@
 * [$addField](functions/addfield.md)
 * [$addSelectMenu](functions/addselectmenu.md)
 * [$addSelectMenuOption](functions/addselectmenuoption.md)
-* [$allMembersCount](functions/allmemberscount.md)
 * [$addThreadMember](functions/addthreadmember.md)
+* [$allMembersCount](functions/allmemberscount.md)
 * [$approximateMemberCount](functions/approximatemembercount.md)
 * [$archiveThread](functions/archivethread.md)
 * [$attachment](functions/attachment.md)
@@ -39,6 +39,12 @@
 * [$clientID](functions/clientid.md)
 * [$clientToken](functions/clienttoken.md)
 * [$cloneChannel](functions/clonechannel.md)
+* [$color](functions/color.md)
+* [$cpu](functions/cpu.md)
+* [$defer](functions/defer.md)
+* [$delete](functions/delete.md)
+* [$get](functions/get.md)
+* [$let](functions/let.md)
 
 ## Typedefs
 * [ButtonStyles](typedefs/buttonstyles.md)
