@@ -1,7 +1,7 @@
 # $delete
 Deletes a temporary variable that was set with [`$let[]`](./let.md).
 
-## Usage
+### Usage
 ```php
 $delete[variableName]
 ```
