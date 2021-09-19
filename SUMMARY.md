@@ -4,6 +4,7 @@
 * [Changelog](changelog.md)
 
 ## Guides
+* [Command Handler](guides/command-handler.md)
 * [Context Menus](guides/context-menus.md)
 * [Custom Functions](guides/custom-functions.md)
 
