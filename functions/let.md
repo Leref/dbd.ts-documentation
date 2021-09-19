@@ -16,7 +16,7 @@ This function has two fields.
 | variableName | The name of this variable. | string | yes |
 | variableValue | The value that this variable holds. | string | yes |
 
-### Examples
+### Example
 ```js
 bot.commands.add({
   type: "basicCommand",
