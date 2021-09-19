@@ -10,8 +10,13 @@ Temporary variables store data that can be used later in the code and are delete
 ```php
 $let[variableName;variableValue]
 ```
+This function has two fields.
+| Field | Description | Type | Required |
+| :--- | :--- | :--- | :--- |
+| variableName | The name of this variable. | string | yes |
+| variableValue | The value that this variable holds. | string | yes |
 
-### Example
+### Examples
 ```js
 bot.commands.add({
   type: "basicCommand",
@@ -25,5 +30,5 @@ $addField[1;Permissions;$userPerms[$guildID;$get[user];, ;yes]]`
 ```
 
 ### Related Functions
-- [`$get[]`](/get.md) - Gets the currency value of a temporary variable.
-- [`$delete[]`](/delete/md) - Deletes the provided variable, so it can no longer be used in the code.
+- [`$get[]`](./get.md) - Gets the currency value of a temporary variable.
+- [`$delete[]`](./delete/md) - Deletes the provided variable, so it can no longer be used in the code.
