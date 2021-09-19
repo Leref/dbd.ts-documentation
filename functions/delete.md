@@ -1,12 +1,12 @@
 # $delete
-Deletes a temporary variable that was set with [`$let[]`](/let.md).
+Deletes a temporary variable that was set with [`$let[]`](./let.md).
 
 ## Usage
 ```php
 $delete[variableName]
 ```
 This function has one field.
-| Fields | Description | Type | Required |
+| Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | variableName | The temporary variable to delete. | string | yes |
 
