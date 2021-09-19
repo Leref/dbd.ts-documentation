@@ -1,0 +1,29 @@
+---
+description: Creates a temporary variable.
+---
+# $let
+{% hint style="info" %}
+Temporary variables store data that can be used later in the code and are deleted once the code is executed.
+{% endhint %}
+
+### Usage
+```php
+$let[variableName;variableValue]
+```
+
+### Example
+```js
+bot.commands.add({
+  type: "basicCommand",
+  name: "example",
+  code: `$let[user;$mentioned[1]]
+$description[1;<@$get[user]>]
+$addField[1;ID;$get[user]]
+$addField[1;Roles;$userRoles[$guildID;$get[user];yes;mention]]
+$addField[1;Permissions;$userPerms[$guildID;$get[user];, ;yes]]`
+})
+```
+
+### Related Functions
+- [`$get[]`](/get.md) - Gets the currency value of a temporary variable.
+- [`$delete[]`](/delete/md) - Deletes the provided variable, so it can no longer be used in the code.
