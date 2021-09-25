@@ -42,7 +42,7 @@ bot.createApplicationCommandData({
             name: "content", //Name of the slash command option
             description: "description", //Slash command option description
             required: true, //Whether this slash command is required
-            type: "STRING" //The input type
+            type: "STRING" //STRING, INTEGER, BOOLEAN, USER, CHANNEL, ROLE, MENTIONABLE, SUB_COMMAND, SUB_COMMAND_GROUP, or NUMBER
         }
     ]
 })
