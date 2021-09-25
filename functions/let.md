@@ -30,5 +30,5 @@ $addField[1;Permissions;$userPerms[$guildID;$get[user];, ;yes]]`
 ```
 
 ### Related Functions
-- [`$get[]`](./get.md) - Gets the currency value of a temporary variable.
-- [`$delete[]`](./delete/md) - Deletes the provided variable, so it can no longer be used in the code.
+- [`$get[]`](functions/get.md) - Gets the currency value of a temporary variable.
+- [`$delete[]`](functions/delete/md) - Deletes the provided variable, so it can no longer be used in the code.
