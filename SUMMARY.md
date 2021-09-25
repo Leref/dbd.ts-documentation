@@ -4,6 +4,8 @@
 * [Changelog](changelog.md)
 
 ## Guides
+* [Adding Events](guides/adding-events.md)
+* [Bot Options](guides/bot-options.md)
 * [Command Handler](guides/command-handler.md)
 * [Context Menus](guides/context-menus.md)
 * [Custom Functions](guides/custom-functions.md)
