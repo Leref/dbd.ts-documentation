@@ -1,4 +1,6 @@
 # Adding Events
+Events allow you to use callbacks or command types that revolve around a Discord event (e.g. a user joining the server).
+
 ```js
 bot.addEvent([
     "onMessage", //every bot should have this
@@ -9,6 +11,7 @@ bot.addEvent([
 
 ### Example
 > This example adds every event currently available to the bot. This is not recommended, as you shouldn't use events you don't need. Feel free to edit this code to your needs.
+
 ```js
 const dbd = require("dbd.ts")
 
