@@ -33,7 +33,8 @@ const bot = new dbd.Bot({
 })
 
 bot.addEvent([
-    "onMessage"
+    "onMessage",
+    "onInteraction"
 ])
 
 bot.commands.add({
