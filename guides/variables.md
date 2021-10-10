@@ -37,7 +37,7 @@ This function has four fields.
 | id | The ID to assign this variable to. Can be a user, server, channel, etc. | snowflake | yes
 | type | The variable type, can be anything you want. You must remember it for later. | string | yes
 
-## Getting a Variable's Value
+### Getting a Variable's Value
 ```
 $getVar[variable;id;type]
 ```
