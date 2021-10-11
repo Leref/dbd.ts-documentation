@@ -5,6 +5,7 @@
 
 ## Guides
 * [Adding Events](guides/adding-events.md)
+* [Author-Only Interactions](guides/author-only-interactions.md)
 * [Bot Options](guides/bot-options.md)
 * [Command Handler](guides/command-handler.md)
 * [Context Menus](guides/context-menus.md)
