@@ -14,7 +14,7 @@ This function has two fields.
 | text | The text that gets searched for 'query'. | string | yes |
 | query | The phrase/character to find within 'text'. | string | yes |
 
-{% hint style="danger" %} Remember the case of characters in `$indexOf[]` matters (e.g. searching for a lowercase `h` within `Hello` won't work). You can use [`$toLowerCase[]`](functions/tolowercase.md) to negate this issue. {% endhint %}
+{% hint style="danger" %} Remember the case of characters in `$indexOf[]` matters (e.g. searching for a lowercase `h` within `Hello` won't work). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 
 ### Examples
 #### Example #1
