@@ -44,7 +44,7 @@ bot.commands.add({
 })
 ```
 
-#### Example #3
+#### Example #4
 ```javascript
 bot.commands.add({
     type: "basicCommand",
