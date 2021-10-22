@@ -13,6 +13,6 @@ $cpu
 bot.commands.add({
   type: "basicCommand",
   name: "cpu",
-  code: `CPU: $cpu%`
+  code: `CPU: $cpu`
 })
 ```
