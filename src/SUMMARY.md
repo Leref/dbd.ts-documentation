@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](/README.md)
+* [Welcome](./home.md)
 * [Changelog](./changelog.md)
 
 ## Guides
