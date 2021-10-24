@@ -19,7 +19,7 @@ npm install dbd.ts
 ### 🛠️ Main File
 Once DBD.TS has been installed, you can paste-in and modify this example in your `index.js` file.
 
-```js
+```javascript
 const dbd = require("dbd.ts")
 
 const bot = new dbd.Bot({
