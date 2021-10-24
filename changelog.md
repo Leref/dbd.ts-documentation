@@ -36,7 +36,7 @@ npm i dbd.ts@3.0.0
 - Added `$clearUserMessages`
 - Added `$deleteRoles`
 - Added `$deleteEmojis`
-- Added `$while loop`
+- Added `$while` loop
 - Added `$channelNSFW`
 - Added `$messageType`
 - Added `$sliceText`
@@ -61,7 +61,7 @@ npm i dbd.ts@2.1.0
 ### Additions
 - Added `$voiceID`
 - Added `$isVoiceDeaf`
-- Added 'type' fielf to `$ban`
+- Added 'type' field to `$ban`
 - Added `$setSlashCommands`
 - Added `$startThread`
 - Added `$joinThread`
