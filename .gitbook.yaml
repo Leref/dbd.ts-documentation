@@ -1,4 +1,4 @@
 root: ./src/
 structure:  
-    readme: README.md
+    readme: ./home.md
     summary: ./SUMMARY.md
