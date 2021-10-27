@@ -1,11 +1,10 @@
 ---
-description: Adds reactions to the author's message.
+description: Sets an embed's author.
 ---
 
 # $author
 
-## Usage
-
+### Usage
 ```php
 $author[index;text;icon;url]
 ```
@@ -19,7 +18,7 @@ This function has four fields.
 | icon | The author icon URL. | string | no |
 | url | The author hyperlink URL. | string | no |
 
-## Example
+### Example
 ```javascript
 bot.commands.add({
     type: "basicCommand",

@@ -1,4 +1,4 @@
-# Image Sizes
+# ImageSizes
 - 16 *(lowest quality)*
 - 32
 - 64

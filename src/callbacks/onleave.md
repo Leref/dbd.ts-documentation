@@ -1,21 +1,22 @@
 ---
-description: Command executes when a user joins the guild. 
+description: Command executes when a user leaves the guild. 
 ---
-# onJoin
-**Event:** `onJoin`\
-**Type:** `joinCommand`
+# onLeave
+**Event:** `onLeave`\
+**Type:** `leaveCommand`
 
 ### Prerequisites 
-**Add the `onJoin` Event:**
+**Add the `onLeave` Event:**
 {% tabs %} {% tab title="index.js" %}
 ```javascript
 bot.addEvent([
     "onMessage",
     "onInteraction",
-    "onJoin" //This is what you need to add
+    "onLeave" //This is what you need to add
 ])
 ```
 {% endtab %} {% endtabs %}
+
 
 **Add the `GUILD_MEMBERS` Intent:**
 {% tabs %} {% tab title="index.js" %}
@@ -36,11 +37,11 @@ const bot = new dbd.Bot({
 ### Example
 ```javascript
 bot.commands.add({
-  type: "joinCommand",
-  code: `$channelSendMessage[773363417338609674;Welcome <@$authorID>!]`
+  type: "leaveCommand",
+  code: `$channelSendMessage[773363417338609674;Sad to see $userTag[$authorID] go :(]`
 })
 ```
-![Result](https://user-images.githubusercontent.com/69215413/132259727-9352ba7b-ca2b-4e0c-baec-259e7dae9ff6.png)
+![Result](https://user-images.githubusercontent.com/69215413/138601897-9e9701b4-c893-4945-af37-cb29cef94754.png)
 
 {% hint style="warning" %}
 You should use server variables in `$channelSendMessage[]` *(if your bot is in more than 1 server)*.

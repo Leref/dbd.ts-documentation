@@ -1,4 +1,4 @@
-# Button Styles
+# ButtonStyles
 [\[View Button Styles Preview\]](https://imgur.com/GK4HptH)
 - primary
 - secondary
@@ -6,4 +6,4 @@
 - danger
 - link
 
-*Referenced In: [$addButton](functions/addbutton.md)*
+*Referenced In: [$addButton](/src/= functions/addbutton.md)*
