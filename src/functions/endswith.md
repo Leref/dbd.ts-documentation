@@ -1,6 +1,7 @@
 ---
 description: Returns whether the provided text's last argument is 'query'.
 ---
+
 # $endsWith
 ### Usage
 ```php

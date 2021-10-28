@@ -17,7 +17,7 @@ This function has four fields.
 | returnDeletedMessageCount | Whether to return the actual amount of deleted messages. | boolean | no |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "clear-user",

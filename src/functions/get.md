@@ -3,7 +3,6 @@ description: Fetches a temporary variable's current value.
 ---
 
 # $get
-
 ### Usage
 ```php
 $get[variableName]
@@ -14,7 +13,7 @@ $get[variableName]
 | variableName | The variable to get the value for. | string | yes
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

@@ -3,7 +3,6 @@ description: Deletes the author's message.
 ---
 
 # $deletecommand
-
 ### Usage
 ```php
 $deletecommand[duration]

@@ -1,6 +1,7 @@
 ---
 description: Fetches members of a guild.
 ---
+
 # $fetchGuildMembers
 ### Usage
 ```php

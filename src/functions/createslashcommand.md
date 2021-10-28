@@ -1,4 +1,8 @@
-# $createContextMenuApplication
+---
+description: Creates a slash command.
+---
+
+# $createSlashCommand
 ### Usage
 ```php
 $createSlashCommand[guildID | global;applicationCommandDataName;returnCommandID]

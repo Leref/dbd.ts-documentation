@@ -1,3 +1,7 @@
+---
+description: Creates a new context menu.
+---
+
 # $createContextMenuApplication
 ### Usage
 ```php

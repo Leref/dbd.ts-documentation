@@ -1,11 +1,8 @@
 ---
 description: Adds a select menu to this action row.
 ---
-
 # $addSelectMenu
-
 ### Usage
-
 ```php
 $addSelectMenu[customID;placeholder;minValues;maxValues;disabled]
 ```
@@ -32,13 +29,12 @@ Don't forget to add the `onInteraction` event to your main file. For example:
 ```javascript
 bot.addEvent([
     "onMessage",
-    "onInteraction"
+    "onInteraction" //This is what you need to add
 ])
 ```
 {% endhint %}
 
 ### Example
-
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -59,4 +55,3 @@ bot.commands.add({
 {% hint style="info" %}
 [Click here](addselectmenuoption.md) for more info about`$addSelectMenuOption`
 {% endhint %}
-

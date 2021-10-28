@@ -3,7 +3,6 @@ description: Returns the bot owner's ID.
 ---
 
 # $botOwnerID
-
 ### Usage
 ```php
 $botOwnerID or $botOwnerID[separator]
@@ -13,7 +12,6 @@ This function has one field.
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | separator | The separator between each team member, applicable if the owner of this bot is a team. | string | no |
-
 
 ### Example
 ```javascript

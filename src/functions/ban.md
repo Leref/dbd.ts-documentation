@@ -3,7 +3,6 @@ description: Bans a user.
 ---
 
 # $ban
-
 ### Usage
 ```php
 $ban[guildID;userID;reason;days]

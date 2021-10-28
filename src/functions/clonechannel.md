@@ -3,7 +3,6 @@ description: Clones the provided channel.
 ---
 
 # $cloneChannel
-
 ### Usage
 ```php
 $cloneChannel[channelID;returnChannelID]
@@ -16,7 +15,7 @@ This function has two fields.
 | returnChannelID | Whether to return the ID of this newly cloned channel. | boolean | no |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "clone",

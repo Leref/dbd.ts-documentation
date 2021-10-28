@@ -1,3 +1,7 @@
+---
+description: Adds a timestamp to the embed.
+---
+
 # $addTimestamp
 ### Usage
 ```php

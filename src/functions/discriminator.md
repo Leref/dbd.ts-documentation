@@ -1,6 +1,7 @@
 ---
 description: Returns the discriminator (last four digits of their tag) of the given user.
 ---
+
 # $discriminator
 ### Usage
 ```php
@@ -14,7 +15,7 @@ This function has one field.
 | userID | The user to get the discriminator from. | snowflake | no |
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -23,7 +24,7 @@ bot.commands.add({
 })
 ```
 
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -32,7 +33,7 @@ bot.commands.add({
 })
 ```
 
-#### Example #3
+**Example #3**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

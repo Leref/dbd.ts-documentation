@@ -1,6 +1,7 @@
 ---
 description: Returns the client's ram usage.
 ---
+
 # $ram
 ### Usage
 ```php
@@ -8,7 +9,7 @@ $ram
 ```
 
 ### Example
-```js
+```javascript
 bot.commands.add({
     type: "basicCommand",
     name: "example",

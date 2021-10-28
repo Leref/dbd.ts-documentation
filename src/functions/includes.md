@@ -1,6 +1,7 @@
 ---
 description: Checks whether given text contains something.
 ---
+
 # $includes
 ### Usage
 ```php
@@ -16,7 +17,7 @@ This function has two fields.
 {% hint style="danger" %} Remember the case of characters in `$includes[]` matters (e.g. searching for a lowercase `h` within `Hello` would return 'false', not 'true'.). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -24,7 +25,7 @@ bot.commands.add({
     code: `$includes[Hello World!;Hello]` //Returns true
 })
 ```
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -34,7 +35,7 @@ $includes[DBD.TS is cool and easy!;cool;easy]
 $includes[DBD.TS is easy!;cool;easy]` //All 3 statements would return true
 })
 ```
-#### Example #3
+**Example #3**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

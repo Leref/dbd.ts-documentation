@@ -1,6 +1,7 @@
 ---
 description: Divides the provided numbers.
 ---
+
 # $divide
 ### Usage
 ```php

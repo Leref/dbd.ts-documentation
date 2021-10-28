@@ -1,6 +1,7 @@
 ---
 description: Deletes the provided channels.
 ---
+
 # $deleteChannels
 ### Usage
 ```php
@@ -14,7 +15,7 @@ This function has one field.
 | channelIDs | The channel IDs to delete, separated by `;`. | snowflake | yes |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

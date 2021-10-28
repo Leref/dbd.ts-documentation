@@ -1,5 +1,5 @@
 ---
-description: Gets current timestamp since 1970.
+description: Gets current timestamp since 1970 in milliseconds.
 ---
 
 # $getTimestamp
@@ -9,10 +9,10 @@ $getTimestamp
 ```
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
-  name: "timestamp",
-  code: `Current Timestamp is $getTimestamp` //Example: Returns: "Current Timestamp is 1635384460315"
+  name: "example",
+  code: `Current Timestamp is $getTimestamp` //Returns "Current Timestamp is 1635384460315"
 })
 ```

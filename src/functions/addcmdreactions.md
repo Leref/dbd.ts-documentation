@@ -3,9 +3,7 @@ description: Adds reactions to the author's message.
 ---
 
 # $addCmdReactions
-
 ### Usage
-
 ```php
 $addCmdReactions[emoji(s)]
 ```
@@ -17,7 +15,7 @@ This function has one field.
 | emoji(s) | The emojis to react with, separate emojis using `;`. | string | yes |
 
 ### Examples
-
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -26,6 +24,7 @@ bot.commands.add({
 })
 ```
 
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

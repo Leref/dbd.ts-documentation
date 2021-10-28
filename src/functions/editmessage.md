@@ -1,6 +1,7 @@
 ---
 description: Edits a existing message.
 ---
+
 # $editMessage
 ### Usage
 ```php

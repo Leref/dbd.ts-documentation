@@ -1,6 +1,7 @@
 ---
 description: Deletes all components from a message.
 ---
+
 # $deleteMessageRows
 ### Usage
 ```php

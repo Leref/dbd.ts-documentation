@@ -14,7 +14,7 @@ $deleteEmojis[guildID;reason;emojiIDs]
 | emojiIDs | The emojis to delete, separated by `;`. | snowflake | yes
 
 ### Example
-```php
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

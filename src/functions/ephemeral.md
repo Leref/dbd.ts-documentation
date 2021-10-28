@@ -1,6 +1,7 @@
 ---
 description: Makes this interaction response ephemeral.
 ---
+
 # $ephemeral
 ### Usage
 ```php

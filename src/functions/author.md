@@ -3,7 +3,6 @@ description: Sets an embed's author.
 ---
 
 # $author
-
 ### Usage
 ```php
 $author[index;text;icon;url]

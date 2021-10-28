@@ -1,6 +1,7 @@
 ---
 description: Formats provided milliseconds into a readable date.
 ---
+
 # $formatMS
 ### Usage
 ```php

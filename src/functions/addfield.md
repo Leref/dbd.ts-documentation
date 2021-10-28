@@ -17,8 +17,8 @@ This function has four fields.
 3. `value` - The value of this field. \| Required
 4. `inline` - If 'yes', field will appear in inlined. However, if you have more than 3 fields \(or the fields are just too long\) with inline enabled, the bot will return rows with 3 fields \(2 if there is a thumbnail\) in each row. 'no' by default. \| Optional
 
-### Example
-
+### Examples
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -30,6 +30,7 @@ bot.commands.add({
 // Without Inline
 ```
 
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

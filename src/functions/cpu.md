@@ -9,7 +9,7 @@ $cpu
 ```
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "cpu",

@@ -1,6 +1,7 @@
 ---
 description: Replaces something with something else in the provided text.
 ---
+
 # $replaceText
 ### Usage
 ```php
@@ -15,7 +16,7 @@ $replaceText[text;sample;new;howMany]
 | howMany | How many samples shall be replaced with 'new', all by default. | integer | no
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -23,8 +24,7 @@ bot.commands.add({
     code: `$replaceText[Hello World!;World;Planet]` //Returns "Hello Planet!"
 })
 ```
-
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -32,8 +32,7 @@ bot.commands.add({
     code: `$replaceText[DBD.TS is very very epic;very very;extremely]` //Returns "DBD.TS is extremely epic"
 })
 ```
-
-#### Example #3
+**Example #3**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

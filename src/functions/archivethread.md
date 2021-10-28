@@ -3,9 +3,7 @@ description: Archives a thread.
 ---
 
 # $archiveThread
-
 ### Usage
-
 ```php
 $archiveThread[threadID]
 ```

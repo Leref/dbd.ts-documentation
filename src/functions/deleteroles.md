@@ -1,6 +1,7 @@
 ---
 description: Deletes the provided roles.
 ---
+
 # $deleteRoles
 ### Usage
 ```php
@@ -15,7 +16,7 @@ This function has three fields.
 | roleIDs | The roles to delete, separated by `;`. | snowflake | yes |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

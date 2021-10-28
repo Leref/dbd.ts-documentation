@@ -20,7 +20,7 @@ This function has two fields.
 The output of `$getUserBadges` looks like this: `DISCORD_EMPLOYEE, PARTNERED_SERVER_OWNER, HYPESQUAD_EVENTS, BUG_HUNTER_LEVEL_1, HOUSE_BRAVERY, HOUSE_BRILLIANCE, HOUSE_BALANCE, EARLY_SUPPORTER, BUG_HUNTER_LEVEL_2, VERIFIED_BOT, EARLY_VERIFIED_BOT_DEVELOPER, DISCORD_CERTIFIED_MODERATOR`
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -28,7 +28,7 @@ bot.commands.add({
     code: `$getUserBadges` //Returns the author's badges.
 ```
 
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

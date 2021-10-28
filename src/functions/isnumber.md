@@ -1,6 +1,7 @@
 ---
-description: Checks whether given input is a number.
+description: Checks whether given value is a number.
 ---
+
 # $isNumber
 ### Usage
 ```php
@@ -11,10 +12,10 @@ This function has one field.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| value | The value to check for. | boolean | yes |
+| value | The value to check. | boolean | yes |
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -23,7 +24,7 @@ bot.commands.add({
 })
 ```
 
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

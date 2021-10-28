@@ -1,6 +1,7 @@
 ---
 description: Edits all rows/components for the provided message. 
 ---
+
 # $editMessageRows
 ### Usage
 ```php
@@ -14,6 +15,7 @@ This function has three fields.
 | channelID | The channel where the message was sent. | snowflake | yes
 | messageID | The message to edit the components for. | snowflake | yes
 | components | The new rows/components for this message. | string | yes 
+
 ### Example
 ```javascript
 bot.commands.add({

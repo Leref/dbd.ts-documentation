@@ -3,7 +3,6 @@ description: Return approximate member count of given guild.
 ---
 
 # $approximateMemberCount
-
 ### Usage
 
 ```php
@@ -17,7 +16,6 @@ This function has one field.
 | guildID | The guild to return the approximate member count for. | snowflake | yes |
 
 ### Example
-
 ```javascript
 bot.commands.add({
     type: "basicCommand",

@@ -18,7 +18,7 @@ Find color hexes [here](https://htmlcolorcodes.com/color-picker)!
 {% endhint %}
 
 ### Example
-```js
+```javascript
 bot.commands.add({
     type: "command",
     name: "example",

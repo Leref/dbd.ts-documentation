@@ -1,6 +1,7 @@
 ---
-description: Kick an user from a guild.
+description: Kicks a user from the server.
 ---
+
 # $kick
 ### Usage
 ```php
@@ -11,8 +12,8 @@ This function has three fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild to kick the user from. | Guild | yes |
-| userID | The user to kick. | Member | yes |
+| guildID | The server to kick the user from. | snowflake | yes |
+| userID | The user to kick. | snowflake | yes |
 | reason | The reason for kicking this user. | string | no |
 
 ### Example
@@ -20,6 +21,7 @@ This function has three fields.
 bot.commands.add({
     type: "basicCommand",
     name: "example",
-    code: `$kick[773352845738115102;638854865854136320;Kicked]`
+    code: `$onlyIf[$hasPerm[$guildID;$authorID;kickmembers]==true;You're missing the 'kick' permission!]
+$kick[$guildID;$mentioned[1];$noMentionMessage]` //Kicks the mentioned user
 })
 ```

@@ -3,9 +3,7 @@ description: Adds a member to the thread.
 ---
 
 # $addThreadMember
-
 ### Usage
-
 ```php
 $addThreadMember[guildID;threadID;userID;reason]
 ```

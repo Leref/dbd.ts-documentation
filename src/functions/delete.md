@@ -1,6 +1,8 @@
-# $delete
-Deletes a temporary variable that was set with [`$let[]`](./let.md).
+---
+description: Deletes a temporary variable that was set with $let.
+---
 
+# $delete
 ### Usage
 ```php
 $delete[variableName]
@@ -11,7 +13,7 @@ This function has one field.
 | variableName | The temporary variable to delete. | string | yes |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

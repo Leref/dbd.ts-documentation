@@ -3,7 +3,6 @@ description: Returns the ID of the user who ran this command.
 ---
 
 # $authorID
-
 ## Usage
 ```php
 $authorID

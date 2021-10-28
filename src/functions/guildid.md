@@ -8,10 +8,10 @@ description: Returns the guild's ID.
 $guildID
 ```
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
-  name: "guildid",
+  name: "example",
   code: `This guild ID is $guildID`
 })
 ```

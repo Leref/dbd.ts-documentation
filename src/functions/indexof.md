@@ -1,6 +1,7 @@
 ---
 description: Returns the character index of a 'query' within 'text'.
 ---
+
 # $indexOf
 ### Usage
 ```php
@@ -17,7 +18,7 @@ This function has two fields.
 {% hint style="danger" %} Remember the case of characters in `$indexOf[]` matters (e.g. searching for a lowercase `h` within `Hello` won't work). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 
 ### Examples
-#### Example #1
+**Example #1**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -25,8 +26,7 @@ bot.commands.add({
     code: `$indexOf[hi hello hey;hey]` //Returns 10
 })
 ```
-
-#### Example #2
+**Example #2**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -34,8 +34,7 @@ bot.commands.add({
     code: `$indexOf[DBD.TS is cool.;is]` //Returns 8
 })
 ```
-
-#### Example #3
+**Example #3**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
@@ -43,8 +42,7 @@ bot.commands.add({
     code: `$indexOf[DBD.TS is cool.;DBD.TS]` //Returns 1
 })
 ```
-
-#### Example #4
+**Example #4**
 ```javascript
 bot.commands.add({
     type: "basicCommand",

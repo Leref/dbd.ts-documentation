@@ -1,6 +1,7 @@
 ---
 description: Creates a temporary variable.
 ---
+
 # $let
 {% hint style="info" %}
 Temporary variables store data that can be used later in the code and are deleted once the code is executed.
@@ -17,7 +18,7 @@ This function has two fields.
 | variableValue | The value that this variable holds. | string | yes |
 
 ### Example
-```js
+```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "example",

@@ -1,6 +1,7 @@
 ---
 description: Sets a embed's description.
---
+---
+
 # $description
 ### Usage
 ```php
