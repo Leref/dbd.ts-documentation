@@ -102,3 +102,4 @@
 * [ButtonStyles](./typedefs/buttonstyles.md)
 * [ComparisonSymbols](./typedefs/comparisonsymbols.md)
 * [ImageSizes](./typedefs/imagesizes.md)
+* [SlashCommandProperty](./typedefs/slashcommandproperty.md)
