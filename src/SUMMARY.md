@@ -21,6 +21,7 @@
 * [onReactionAdd](./callbacks/onreactionadd.md)
 * [onReactionRemove](./callbacks/onreactionremove.md)
 * [onReady](./callbacks/onready.md)
+* [Space Commands](./callbacks/space-commands.md)
 
 ## Functions
 * [$addActionRow](./functions/addactionrow.md)
