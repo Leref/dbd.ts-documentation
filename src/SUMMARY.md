@@ -86,6 +86,7 @@
 * [$get](./functions/get.md)
 * [$getChannelSlowmode](./functions/getchannelslowmode.md)
 * [$getSlashCommandData](./functions/getslashcommanddata.md)
+* [$getSlashCommandOption](./functions/getslashcommandoption.md)
 * [$getTimestamp](./functions/gettimestamp.md)
 * [$getUserBadges](./functions/getuserbadges.md)
 * [$guildID](./functions/guildid.md)
@@ -103,4 +104,5 @@
 * [ButtonStyles](./typedefs/buttonstyles.md)
 * [ComparisonSymbols](./typedefs/comparisonsymbols.md)
 * [ImageSizes](./typedefs/imagesizes.md)
+* [SlashCommandOptionProperty](./typedefs/slashcommandoptionproperty.md)
 * [SlashCommandProperty](./typedefs/slashcommandproperty.md)
