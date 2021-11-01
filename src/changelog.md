@@ -18,7 +18,8 @@ npm i dbd.ts@4.0.0
 - Added `$createTextChannel`
 - Added `$wait`
 - Added more var oriented functions in `$getCooldownTime`
-- Added `$dmChannel` and `$sendDM`
+- Added `$dmChannel`
+- Added `$sendDM`
 - Added `$makeReturn`
 - Added `loopCommand`
 - Added functions regarding `$textSplit`

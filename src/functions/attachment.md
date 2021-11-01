@@ -24,4 +24,4 @@ bot.commands.add({
 })
 //The URL must end with a extension, else it is sent as a unpreviewable file.
 ```
-![Output](https://user-images.githubusercontent.com/69215413/132230947-4ef1d689-da5d-4f74-90ba-5a9a03ed980d.png)
+![Result](https://user-images.githubusercontent.com/69215413/132230947-4ef1d689-da5d-4f74-90ba-5a9a03ed980d.png)

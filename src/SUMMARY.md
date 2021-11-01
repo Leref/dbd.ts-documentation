@@ -91,6 +91,7 @@
 * [$getUserBadges](./functions/getuserbadges.md)
 * [$guildID](./functions/guildid.md)
 * [$if](./functions/if.md)
+* [$ignoreCode](./functions/ignorecode.md)
 * [$includes](./functions/includes.md)
 * [$indexOf](./functions/indexof.md)
 * [$isNumber](./functions/isnumber.md)

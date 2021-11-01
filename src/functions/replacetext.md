@@ -8,6 +8,8 @@ description: Replaces something with something else in the provided text.
 $replaceText[text;sample;new;howMany]
 ```
 
+This function has four fields.
+
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | text | The text that gets searched for 'sample'. | string | yes

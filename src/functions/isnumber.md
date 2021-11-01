@@ -12,7 +12,7 @@ This function has one field.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| value | The value to check. | boolean | yes |
+| value | The value to check. | string | yes |
 
 ### Examples
 **Example #1**

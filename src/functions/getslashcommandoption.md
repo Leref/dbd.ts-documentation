@@ -8,6 +8,8 @@ description: Fetches data about the specified slash command's option.
 $getSlashCommandOption[guildID | global;slash command ID;index;property]
 ```
 
+This function has four fields.
+
 | Field | Description | Type | Required 
 | :---- | :---- | :---- | :----
 | guildID \| global | Type of the slash command, either `global` or a guild ID. | snowflake \| string | yes
