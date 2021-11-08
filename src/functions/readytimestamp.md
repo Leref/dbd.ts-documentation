@@ -1,6 +1,6 @@
 ---
 description: Returns the timestamp when the client was last ready, in milliseconds.
---
+---
 
 # $readyTimestamp
 ### Usage
