@@ -1,71 +1,64 @@
 ---
-Description: This function takes in a math expression and returns the answer.
+description: Calculates a math expression.
 ---
 
 # $math
 ### Usage
 ```php
-$math[operation]
+$math[expression]
 ```
 
 This function has one field.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| operation | Calculate something | number | yes |
+| expression |  The math expression to solve. | string | yes |
 
-### Example: Addition
+**Math Symbols:**
+- `+` - Addition.
+- `-` - Subtraction.
+- `/` - Division.
+- `*` - Multiplication.
+- `()` - Parentheses you can put equations in.
+
+### Examples
+**Addition**
+```javascript
+bot.commands.add({
+    type: "example",
+    name: "example",
+    code: `$math[1+1]` //Returns 1
+})
+```
+**Subtraction**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
-    name: "exampleAddition",
-    code: `$math[1+1]`
+    name: "example",
+    code: `$math[10-5]` //Returns 5
 })
 ```
-```javascript
-//returns 2
-```
-
-### Example: Subtraction
+**Multiplication**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
-    name: "exampleSubtraction",
-    code: `$math[10-5]`
+    name: "example",
+    code: `$math[2*2]` //Returns 4
 })
 ```
-```javascript
-//returns 5
-```
-
-### Example: Multiplication
+**Division**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
-    name: "exampleMultiplication",
-    code: `$math[2*2]`
+    name: "example",
+    code: `$math[32/4]` //Returns 8
 })
 ```
-```javascript
-//returns 4
-```
-
-### Example: Division
+**Mixing Operations**
 ```javascript
 bot.commands.add({
     type: "basicCommand",
-    name: "exampleDivision",
-    code: `$math[32/4]`
+    name: "example",
+    code: `$math[5-((30/2)*2)+10]` //Returns -15
 })
-```
-```javascript
-//returns 8
-```
-
-```javascript
-// Symbols:
-+ (Addition)
-- (Subtraction)
-/ (Division)
-* (Multiplication)
 ```
