@@ -70,4 +70,4 @@ bot.commands.add({
 })
 ```
 
-<mark style="color:blue;">Find more information about formating [here](https://momentjs.com/).</mark>
+<mark style="color:blue;">Find more information about formating <mark style="color:red;">[here](https://momentjs.com/)</mark>.</mark>
