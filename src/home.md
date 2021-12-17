@@ -13,9 +13,11 @@ DBD.TS is a simple feature-rich package for creating Discord bots.
 **Node.JS 16.6.0 or newer is required.**
 
 <mark style="color:blue;">
-```sh-session
+<pre>
+<code>
 npm install dbd.ts
-```
+</code>
+</pre>
 </mark>
 
 ### 🛠️ Main File
