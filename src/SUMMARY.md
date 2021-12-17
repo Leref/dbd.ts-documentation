@@ -11,6 +11,7 @@
 * [Context Menus](./guides/context-menus.md)
 * [Custom Functions](./guides/custom-functions.md)
 * [Slash Commands](./guides/slash-commands.md)
+* [Statuses](./guides/statuses.md)
 * [Variables](./guides/variables.md)
 
 ## Callbacks
