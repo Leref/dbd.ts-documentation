@@ -16,6 +16,7 @@ This function has four params.
 | name | The name of this field. | String | Yes
 | value | The value of this field. | String | Yes
 | inline | Whether fields should be inline. **\*** | Boolean | No
+
 **\*** If 'yes', field will appear in inlined. However, if you have more than 3 fields \(or the fields are just too long\) with inline enabled, the bot will return rows with 3 fields \(2 if there is a thumbnail\) in each row. Inline fields will appear uninlined on mobile devices due to viewport size. 'no' by default.
 
 ### Examples

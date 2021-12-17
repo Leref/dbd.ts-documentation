@@ -12,6 +12,7 @@ This function has one param.
 | Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | channelName | The channel name to return the channel ID for. **\*** | Snowflake | No |
+
 **\*** If `channelName` isn't provided, then the current channel ID is returned.
 
 ### Example

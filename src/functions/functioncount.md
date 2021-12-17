@@ -1,5 +1,6 @@
 ---
 description: Returns how many functions there currently are in DBD.TS.
+---
 
 # $functionCount
 ### Usage
