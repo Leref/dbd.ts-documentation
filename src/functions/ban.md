@@ -8,14 +8,14 @@ description: Bans a user.
 $ban[guildID;userID;reason;days]
 ```
 
-This function has four fields.
+This function has four params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild to ban this user from. | snowflake | yes |
-| userID | The user to ban from this guild. | snowflake | yes |
-| reason | The reason for this ban. | string | no
-| deleteDays | Number of days of messages to delete, must be between 0 and 7 inclusive. | integer | no 
+| guildID | The guild to ban this user from. | Snowflake | Yes |
+| userID | The user to ban from this guild. | Snowflake | Yes |
+| reason | The reason for this ban. | String | No
+| deleteDays | Number of days of messages to delete, must be between 0 and 7 inclusive. | Integer | No 
 
 ### Example
 ```javascript

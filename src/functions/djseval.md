@@ -8,12 +8,12 @@ description: Evals discord.js code.
 $djsEval[showOutput;code]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| showOutput | Whether to return the output of this code. | boolean | yes
-| code | The [`discord.js`](https://discord.js.org/) code to execute. | string | yes
+| showOutput | Whether to return the output of this code. | Boolean | Yes
+| code | The [`discord.js`](https://discord.js.org/) code to execute. | String | Yes
 
 ### Examples
 **Sending a Message:**

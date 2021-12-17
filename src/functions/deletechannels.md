@@ -8,11 +8,11 @@ description: Deletes the provided channels.
 $deleteChannels[channelIDs]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelIDs | The channel IDs to delete, separated by `;`. | snowflake | yes |
+| channelIDs | The channel IDs to delete, separated by `;`. | Snowflake | Yes |
 
 ### Example
 ```javascript

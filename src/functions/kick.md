@@ -8,13 +8,13 @@ description: Kicks a user from the server.
 $kick[guildID;userID;reason]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The server to kick the user from. | snowflake | yes |
-| userID | The user to kick. | snowflake | yes |
-| reason | The reason for kicking this user. | string | no |
+| guildID | The server to kick the user from. | Snowflake | Yes |
+| userID | The user to kick. | Snowflake | Yes |
+| reason | The reason for kicking this user. | String | No |
 
 ### Example
 ```javascript

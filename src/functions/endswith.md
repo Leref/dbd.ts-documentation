@@ -8,12 +8,12 @@ description: Returns whether the provided text's last argument is 'query'.
 $endsWith[text;query]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required 
+| Param | Description | Type | Required 
 | :---- | :---- | :---- | :----
-| text | The text that may end with 'query'. | string | yes
-| query | The word that 'text' may end with. | string | yes
+| text | The text that may end with 'query'. | String | Yes
+| query | The word that 'text' may end with. | String | Yes
 
 {% hint style="danger" %} Remember the case of characters in `$endsWith[]` matters (e.g. `$endsWith[HELLO;o]` would return false). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 

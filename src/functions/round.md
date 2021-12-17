@@ -12,8 +12,8 @@ This function has two fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| number | The number to round. | number | yes
-| unit | Amount of decimals to leave. | integer | yes
+| number | The number to round. | Number | Yes
+| unit | Amount of decimals to leave. | Integer | Yes
 
 ### Examples
 **Example #1**

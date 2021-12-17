@@ -12,7 +12,7 @@ $eval[code]
 bot.commands.add({
   type: "basicCommand",
   name: "example",
-  code: `$onlyForIDs[$botOwnerID;]
+  code: `$onlyForIDs[$botOwnerID;Only $userTag[$botOwnerID] can use that!]
 $eval[$message]` //Evals the provided code
 })
 ```

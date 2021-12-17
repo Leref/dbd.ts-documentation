@@ -7,18 +7,18 @@ description: Adds a select menu to this action row.
 $addSelectMenu[customID;placeholder;minValues;maxValues;disabled]
 ```
 
-This function has 5 fields.
+This function has five parms.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| customID | The customID of this select menu. | string | yes |
-| placeholder | The select menu's placeholder. | string | yes |
-| minValues | The minimum amount of options that the user can select. | integer | yes |
-| maxValues | The maximum amount of options that the user can select. | integer | yes |
-| disabled | Whether this select menu should be disabled or not. | boolean | yes |
+| customID | The customID of this select menu. | String | Yes |
+| placeholder | The select menu's placeholder. | String | Yes |
+| minValues | The minimum amount of options that the user can select. | Integer | Yes |
+| maxValues | The maximum amount of options that the user can select. | Integer | Yes |
+| disabled | Whether this select menu should be disabled or not. | Boolean | Yes |
 
 {% hint style="warning" %}
-* Select menus must be sent inside an action row \(refer to [$addActionRow](addactionrow.md)\).
+* Select menus must be sent inside an action row \(refer to [$addActionRow](./addactionrow.md)\).
 * An action row can contain only one select menu.
 * An action row containing a select menu cannot also contain buttons.
 {% endhint %}
@@ -53,5 +53,5 @@ bot.commands.add({
 ```
 
 {% hint style="info" %}
-[Click here](addselectmenuoption.md) for more info about`$addSelectMenuOption`
+[Click here](./addselectmenuoption.md) for more info about`$addSelectMenuOption[]`
 {% endhint %}

@@ -8,12 +8,12 @@ description: Formats provided milliseconds into a readable date.
 $formatMS[milliseconds;format]
 ```
 
-This function has two fields.
+This function has two params.
 
 | Field | Description | Type | Required
 | :---- | :---- | :---- | :----
-| milliseconds | The milliseconds to format. | integer | yes
-| format | The format to apply. | string | no
+| milliseconds | The milliseconds to format. | Integer | Yes
+| format | The format to apply. | String | No
 
 ### Examples
 **Example #1**

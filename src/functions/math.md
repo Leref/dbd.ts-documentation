@@ -8,18 +8,18 @@ description: Calculates a math expression.
 $math[expression]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| expression |  The math expression to solve. | string | yes |
+| expression |  The math expression to solve. | String | Yes |
 
 **Math Symbols:**
 - `+` - Addition.
 - `-` - Subtraction.
 - `/` - Division.
 - `*` - Multiplication.
-- `()` - Parentheses you can put equations in.
+- `()` - Parentheses you can put equations in (changes order of operations).
 
 ### Examples
 **Addition**

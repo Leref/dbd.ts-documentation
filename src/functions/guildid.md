@@ -1,5 +1,5 @@
 ---
-description: Returns the guild's ID.
+description: Returns the current guild's ID.
 ---
 
 # $guildID
@@ -7,6 +7,7 @@ description: Returns the guild's ID.
 ```php
 $guildID
 ```
+
 ### Example
 ```javascript
 bot.commands.add({
@@ -15,3 +16,4 @@ bot.commands.add({
   code: `This guild ID is $guildID`
 })
 ```
+![Result](https://user-images.githubusercontent.com/69215413/146605524-e0de1d2a-602d-4be6-8670-52c2f801bfd1.png)

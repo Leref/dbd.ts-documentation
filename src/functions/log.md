@@ -7,11 +7,11 @@ description: Logs something to the console.
 $log[text]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| text | The text to log. | string | yes |
+| text | The text to log. | String | Yes |
 
 ### Example
 ```javascript

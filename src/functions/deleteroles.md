@@ -5,15 +5,15 @@ description: Deletes the provided roles.
 # $deleteRoles
 ### Usage
 ```php
-$deleteRoles[guildID;reason;roleIDs]
+$deleteRoles[guildID;reason;roleIDs;...]
 ```
 This function has three fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild these role(s) belong to. | snowflake | yes |
-| reason | The reason for deleting these roles. | string | yes |
-| roleIDs | The roles to delete, separated by `;`. | snowflake | yes |
+| guildID | The guild these role(s) belong to. | Snowflake | Yes |
+| reason | The reason for deleting these roles. | String | Yes |
+| roleIDs | The roles to delete. | Snowflake | Yes |
 
 ### Example
 ```javascript

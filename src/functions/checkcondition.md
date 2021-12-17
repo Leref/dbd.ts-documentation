@@ -7,12 +7,13 @@ description: Checks if the given condition is true or false.
 ```php
 $checkCondition[value1(comparisonSymbol)value2]
 ```
-This function has three fields.
-| Field | Description | Type | Required |
+This function has three params.
+
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| value1 | The value to compare to value 2. | string | yes |
-| (comparisonSymbol) | The comparison symbol | string [(ComparisonSymbols)](typedefs/comparisonsymbols.md) | yes
-| value2 | The value to compare to value 1. | string | yes |
+| value1 | The value to compare to value 2. | String | Yes |
+| (comparisonSymbol) | The comparison symbol | String [(ComparisonSymbol)](typedefs/comparisonsymbols.md) | Yes
+| value2 | The value to compare to value 1. | String | Yes |
 
 ### Example
 ```js

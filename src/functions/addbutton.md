@@ -3,15 +3,14 @@ description: Adds a button to this action row.
 ---
 
 # $addButton
-
 ### Usage
 ```
 $addButton[customID/link;label;style;emoji;disabled (yes/no)]
 ```
 
-This function has five fields.
+This function has five params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | customID/link | The customID or link of this button. | string | yes |
 | label | The label that this button displays. | string | yes |
@@ -24,7 +23,6 @@ There can be up to 5 buttons per action row.
 {% endhint %}
 
 ### Example
-
 Link Button:
 ```javascript
 bot.commands.add({

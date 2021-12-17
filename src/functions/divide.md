@@ -5,14 +5,14 @@ description: Divides the provided numbers.
 # $divide
 ### Usage
 ```php
-$divide[numbers]
+$divide[numbers;...]
 ```
 
 This function has one field.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| numbers | The numbers to divide, separated by `;`. | number | yes
+| numbers | The numbers to divide. | Number | Yes
 
 ### Examples
 **Example #1**

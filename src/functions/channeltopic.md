@@ -7,11 +7,11 @@ description: Returns a channel's topic/description.
 $channelTopic[channelID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :-----
-| channelID | The channel to get the topic of. | snowflake | yes
+| channelID | The channel to get the topic of. | Snowflake | Yes
 
 ### Examples
 **Example #1**

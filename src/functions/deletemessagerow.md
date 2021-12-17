@@ -8,10 +8,10 @@ description: Deletes specific row of components from a message.
 $deleteMessageRow[channelID;messageID;rowIndex]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel where this message was sent in. | snowflake | yes |
-| messageID | The message to delete components row from. | snowflake | yes |
-| rowIndex | The row to delete. | integer | yes |
+| channelID | The channel where this message was sent in. | Snowflake | Yes |
+| messageID | The message to delete components row from. | Snowflake | Yes |
+| rowIndex | The row to delete. | Integer | Yes |

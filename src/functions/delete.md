@@ -7,10 +7,11 @@ description: Deletes a temporary variable that was set with $let.
 ```php
 $delete[variableName]
 ```
-This function has one field.
-| Field | Description | Type | Required |
+This function has one param.
+
+| Params | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| variableName | The temporary variable to delete. | string | yes |
+| variableName | The temporary variable to delete. | String | Yes |
 
 ### Example
 ```javascript

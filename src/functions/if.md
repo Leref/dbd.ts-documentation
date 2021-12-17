@@ -8,13 +8,13 @@ description: Creates a condition and executes a code depending on the condition.
 $if[condition;if true;if false]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| condition | The condition to test, uses [ComparisonSymbols](typedefs/comparisonsymbols.md). | string | yes |
-| if true | The code to execute if the condition is true. | string | yes
-| if false | The code to execute if the condition is false. | string | no
+| condition | The condition to test, uses [ComparisonSymbols](/src/typedefs/comparisonsymbols.md). | String | Yes |
+| if true | The code to execute if the condition is true. | String | Yes
+| if false | The code to execute if the condition is false. | String | No
 
 ### Examples
 #### Example #1
@@ -38,14 +38,14 @@ bot.commands.add({
     type: "basicCommand",
     name: "example",
     code: `
-$if[$packageVersion==3.0.0;
-v3 😔
+  $if[$packageVersion==3.0.0;
+    v3 😔
 ;
-$if[$packageVersion==4.0.0;
-Hallelujah v4
+  $if[$packageVersion==4.0.0;
+    Hallelujah v4
 ;
-v$packageVersion
-]] 
+    v$packageVersion
+  ]] 
 `
 })
 ```

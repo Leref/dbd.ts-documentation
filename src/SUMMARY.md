@@ -43,6 +43,7 @@
 * [$author](./functions/author.md)
 * [$authorAvatar](./functions/authoravatar.md)
 * [$authorID](./functions/authorid.md)
+* [$awaitMessage](./functions/awaitmessage.md)
 * [$ban](./functions/ban.md)
 * [$banCount](./functions/bancount.md)
 * [$botOwnerID](./functions/botownerid.md)
@@ -64,6 +65,7 @@
 * [$clientToken](./functions/clienttoken.md)
 * [$cloneChannel](./functions/clonechannel.md)
 * [$color](./functions/color.md)
+* [$cooldown](./functions/cooldown.md)
 * [$cpu](./functions/cpu.md)
 * [$createContextMenuApplication](./functions/createcontextmenuapplication.md)
 * [$createFile](./functions/createfile.md)
@@ -118,7 +120,6 @@
 * [$packageName](./functions/packagename.md)
 * [$ram](./functions/ram.md)
 * [$readyTimestamp](./functions/readytimestamp.md)
-* [$removeAllReactions](./functions/removeallreactions.md)
 * [$replaceText](./functions/replacetext.md)
 * [$round](./functions/round.md)
 

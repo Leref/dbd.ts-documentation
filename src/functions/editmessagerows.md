@@ -8,13 +8,13 @@ description: Edits all rows/components for the provided message.
 $editMessageRows[channelID;messageID;components]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| channelID | The channel where the message was sent. | snowflake | yes
-| messageID | The message to edit the components for. | snowflake | yes
-| components | The new rows/components for this message. | string | yes 
+| channelID | The channel where the message was sent. | Snowflake | Yes
+| messageID | The message to edit the components for. | Snowflake | Yes
+| components | The new rows/components for this message. | String | Yes 
 
 ### Example
 ```javascript

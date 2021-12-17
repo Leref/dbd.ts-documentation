@@ -1,5 +1,5 @@
 ---
-description: Creates a temporary variable.
+description: Declares and creates a temporary variable.
 ---
 
 # $let
@@ -11,11 +11,12 @@ Temporary variables store data that can be used later in the code and are delete
 ```php
 $let[variableName;variableValue]
 ```
-This function has two fields.
-| Field | Description | Type | Required |
+This function has two params.
+
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| variableName | The name of this variable. | string | yes |
-| variableValue | The value that this variable holds. | string | yes |
+| variableName | The name of this variable. | String | Yes |
+| variableValue | The value that this variable holds. | String | Yes |
 
 ### Example
 ```javascript
@@ -32,4 +33,4 @@ $addField[1;Permissions;$userPerms[$guildID;$get[user];, ;yes]]`
 
 ### Related Functions
 - [`$get[]`](functions/get.md) - Gets the currency value of a temporary variable.
-- [`$delete[]`](functions/delete/md) - Deletes the provided variable, so it can no longer be used in the code.
+- [`$delete[]`](functions/delete/md) - Deletes the provided temporary variable, so it can no longer be used in the code.

@@ -8,9 +8,22 @@ description: Archives a thread.
 $archiveThread[threadID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Parmas | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| threadID | The ID of the thread channel to delete. | snowflake | yes |
+| threadID | The ID of the thread channel to delete. | Snowflake | Yes |
 
+### Example
+```javascript
+bot.commands.add({
+  type: "basicCommand",
+  name: "example",
+  code: `
+    $onlyIf[$channelType[$noMentionMessage]==thread;:x: That's a not a thread channel!]
+    $archiveThread[$noMentionMessage]
+    Archived thread!
+  `
+})
+
+```

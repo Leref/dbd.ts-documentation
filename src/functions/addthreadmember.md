@@ -8,12 +8,20 @@ description: Adds a member to the thread.
 $addThreadMember[guildID;threadID;userID;reason]
 ```
 
-This function has four fields.
+This function has four params.
 
-| Fields | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild that this thread channel belongs to. | snowflake | yes |
-| threadID | The thread to add this user to. | snowflake | yes |
-| userID | The user to add to this thread. | snowflake | yes |
-| reason | The reason for adding this user to the thread. | string | no |
+| guildID | The guild that this thread channel belongs to. | Snowflake | Yes |
+| threadID | The thread to add this user to. | Snowflake | Yes |
+| userID | The user to add to this thread. | Snowflake | Yes |
+| reason | The reason for adding this user to the thread. | String | No |
 
+### Example
+```javascript
+bot.commands.add({
+  type: "basicCommand",
+  name: "example",
+  code: `$guildID[$guildID;123456789123456789;$authorID]`
+})
+```

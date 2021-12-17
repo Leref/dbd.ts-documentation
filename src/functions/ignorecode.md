@@ -7,11 +7,11 @@ description: Allows you to comment on your code, without the text being included
 $ignoreCode[text]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :-----
-| text | The text/code to ignore. | string | yes
+| text | The text/code to ignore. | String |Yes
 
 ### Example
 ```javascript

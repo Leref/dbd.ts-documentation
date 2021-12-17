@@ -8,11 +8,12 @@ description: Returns the discriminator (last four digits of their tag) of the gi
 $discriminator or $discriminator[userID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| userID | The user to get the discriminator from. | snowflake | no |
+| userID | The user to get the discriminator from. **\*** | Snowflake | No |
+**\*** Returns author's discriminator if no `userID` is provided.
 
 ### Examples
 **Example #1**
@@ -29,7 +30,7 @@ bot.commands.add({
 bot.commands.add({
     type: "basicCommand",
     name: "example",
-    code: `$discriminator[608358453580136499]` //Returns leref's discriminator (0001)
+    code: `$discriminator[608358453580136499]` //Returns Leref's discriminator (0001)
 })
 ```
 
@@ -38,6 +39,6 @@ bot.commands.add({
 bot.commands.add({
     type: "basicCommand",
     name: "example",
-    code: `$discriminator[$mentioned[1]]` //Returns the mentioned user's discriminator
+    code: `$discriminator[$mentioned[1;yes]]` //Returns the mentioned user's discriminator
 })
 ```

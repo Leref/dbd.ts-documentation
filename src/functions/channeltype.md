@@ -7,11 +7,11 @@ description: Allows you to comment on your code, without the text being included
 $channelType[channelID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :-----
-| channelID | The channel to get the type of. | snowflake | yes
+| channelID | The channel to get the type of. | Snowflake | Yes
 
 ### Examples
 **Example #1**

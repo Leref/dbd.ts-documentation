@@ -7,12 +7,12 @@ description: Gets how much time is left on a cooldown, in milliseconds.
 $getCooldownTime[commandName;id]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :--- | :--- | :--- | :---
-| commandName | The command to get the cooldown from. | string | yes
-| id | The same thing you provided for 'id' in [$cooldown](./cooldown.md). | snowflake | yes
+| commandName | The command to get the cooldown from. | String | Yes
+| id | The same thing you provided for 'id' in [$cooldown](./cooldown.md). | Snowflake | Yes
 
 {% hint style="info" %} `$getCooldownTime` returns `0` if there is no cooldown active for the provided `commandName` on `id`. {% endhint %} 
 

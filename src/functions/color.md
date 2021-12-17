@@ -7,8 +7,9 @@ description: Sets the embed's border color.
 ```php
 $color[index;colorHex]
 ```
+This function has two params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | index | The embed index that this color should belong to. | integer | yes |
 | colorHex | The color hex of this embed color. | string | yes |

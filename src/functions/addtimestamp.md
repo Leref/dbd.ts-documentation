@@ -8,12 +8,12 @@ description: Adds a timestamp to the embed.
 $addTimestamp[index;ms]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| index | Index of the embed to add this timestamp to. | integer | yes
-| ms | The milliseconds to set the timestamp to (current time by default). | integer | no
+| index | Index of the embed to add this timestamp to. | Integer | Yes
+| ms | The milliseconds to set the timestamp to (current time by default). | Integer | No
 
 ### Example
 ```javascript

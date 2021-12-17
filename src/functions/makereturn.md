@@ -8,9 +8,11 @@ description: Removes excess/useless spaces from the provided text.
 $makeReturn[text]
 ```
 
-| Field | Description | Type | Required |
+This function has one param.
+
+| Param | Description | Type | Required |
 | :---- | :---- | :---- | :----
-| text | The text to remove excess spacing from. | string | yes
+| text | The text to remove excess spacing from. | String | Yes
 
 ### Example
 ```javascript

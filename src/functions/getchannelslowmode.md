@@ -8,9 +8,11 @@ description: Gets the slowmode of a channel in seconds, or 0 if there is no slow
 $getChannelSlowmode[channelID]
 ```
 
-| Field | Description | Type | Required
+This function has one param.
+
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| channelID | The channel to get the slowmode of. | snowflake | yes
+| channelID | The channel to get the slowmode of. | Snowflake | Yes
 
 ### Examples
 **Example #1**

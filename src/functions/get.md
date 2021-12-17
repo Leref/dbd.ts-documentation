@@ -8,9 +8,11 @@ description: Fetches a temporary variable's current value.
 $get[variableName]
 ```
 
-| Field | Description | Type | Required |
+This function has one param.
+
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| variableName | The variable to get the value for. | string | yes
+| variableName | The variable to get the value for. | String | Yes
 
 ### Example
 ```javascript
@@ -19,4 +21,5 @@ bot.commands.add({
   name: "example",
   code: `$let[msgid;$channelSendMessage[$channelID;Hello World!;yes]]
 $setTimeout[5s;$editMessage[$channelID;$get[msgid];Hi Planet!]]`
- ```
+})
+```

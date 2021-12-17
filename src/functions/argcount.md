@@ -7,11 +7,11 @@ description: Returns how many arguments are in the user's message, or the provid
 $argCount or $argCount[text]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :--- | :--- | :--- | :---
-| text | The text to get the argument count of. | string | no
+| text | The text to get the argument count of. | String | No
 
 {% hint style="info" %} `$argCount` (without brackets) returns how many argument(s) are in the user's message, while `$argCount[text]` returns how many argument(s) are in the provided 'text'. Remember, argument(s) is another meaning for a word; so one word is one argument. {% endhint %}
 

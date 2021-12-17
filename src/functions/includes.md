@@ -7,12 +7,12 @@ description: Checks whether given text contains something.
 ```php
 $includes[text;queries]
 ```
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| text | The text to search for 'queries' | string | yes |
-| queries | The arguments that 'text' shall contain, separated by `;`. | string | yes
+| text | The text to search for 'queries' | String | Yes |
+| queries | The arguments that 'text' shall contain, separated by `;`. | String | Yes
 
 {% hint style="danger" %} Remember the case of characters in `$includes[]` matters (e.g. searching for a lowercase `h` within `Hello` would return 'false', not 'true'.). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 

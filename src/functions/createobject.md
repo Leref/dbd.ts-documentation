@@ -8,8 +8,8 @@ description: Creates a JSON object that can be used later.
 $createObject[jsonData]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :---
 | jsonData | The JSON's data.

@@ -8,11 +8,11 @@ description: Checks whether given value is a number.
 $isNumber[value]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| value | The value to check. | string | yes |
+| value | The value to check. | String | Yes |
 
 ### Examples
 **Example #1**

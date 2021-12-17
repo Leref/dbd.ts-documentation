@@ -8,12 +8,12 @@ description: Sets a embed's description.
 $description[index;text]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| index | The index of the embed to add thsi description to. | integer | yes
-| text | The text that the description should contain. | string | yes
+| index | The embed to add this description to. | Integer | Yes
+| text | The text that the description should contain. | String | Yes
 
 ### Example
 ```javascript

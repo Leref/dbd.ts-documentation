@@ -12,10 +12,10 @@ This function has four fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| text | The text that gets searched for 'sample'. | string | yes
-| sample | The text to replace with 'new'. | string | yes
-| new | The text to replace 'sample' with. | string | yes
-| howMany | How many samples shall be replaced with 'new', all by default. | integer | no
+| text | The text that gets searched for 'sample'. | String | Yes
+| sample | The text to replace with 'new'. | String | Yes
+| new | The text to replace 'sample' with. | String | Yes
+| howMany | How many samples shall be replaced with 'new', all by default. | Integer | No
 
 ### Examples
 **Example #1**

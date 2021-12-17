@@ -7,11 +7,11 @@ description: Returns whether a channel is not-safe-for-work (NSFW).
 ```php
 $channelNSFW[channelID]
 ```
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to return this data for. | snowflake | yes |
+| channelID | The channel to return this data for. | Snowflake | Yes |
 
 ### NSFW-Only Limiter
 ```

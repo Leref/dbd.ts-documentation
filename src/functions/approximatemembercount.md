@@ -1,19 +1,18 @@
 ---
-description: Return approximate member count of given guild.
+description: Returns the approximate member count of provided guild.
 ---
 
 # $approximateMemberCount
 ### Usage
-
 ```php
 $approximateMemberCount[guildID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild to return the approximate member count for. | snowflake | yes |
+| guildID | The guild to return the approximate member count for. | Snowflake | Yes |
 
 ### Example
 ```javascript

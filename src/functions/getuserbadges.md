@@ -12,8 +12,9 @@ This function has two fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| userID | The user to get the badges for. | snowflake | no
-| separator | The separator between each badge, commas by default. | string | no
+| userID | The user to get the badges for. **\*** | Snowflake | No
+| separator | The separator between each badge, commas by default. | String | No
+**\*** Returns the author's badges if no `userID` is provided.
 
 {% hint style="info" %} Nitro/paid badges generally are excluded. {% endhint %}
 

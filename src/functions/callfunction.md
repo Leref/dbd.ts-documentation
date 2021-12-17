@@ -7,8 +7,8 @@ description: Calls and executes a custom function.
 ```php
 $callFunction[functionName]
 ```
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| functionName | The custom function to execute. | string | yes |
+| functionName | The custom function to execute. | String | Yes |

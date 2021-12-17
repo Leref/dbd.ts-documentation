@@ -13,6 +13,6 @@ $dbPing
 bot.commands.add({
   type: "basicCommand",
   name: "example",
-  code: `Database Ping: $dbPing ms`
+  code: `Database Ping: \`$dbPingms\``
 })
 ```

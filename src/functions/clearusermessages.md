@@ -7,23 +7,24 @@ description: Clear messages by a user from the channel.
 ```php
 $clearUserMessages[channelID;userID;amount;returnDeletedMessageCount]
 ```
-This function has four fields.
+This function has four params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to clear messages in. | snowflake | yes |
-| userID | The user to clear messages for. | snowflake | yes |
-| amount | The amount of message to delete. | integer | yes
-| returnDeletedMessageCount | Whether to return the actual amount of deleted messages. | boolean | no |
+| channelID | The channel to clear messages in. | Snowflake | Yes |
+| userID | The user to clear messages for. | Snowflake | Yes |
+| amount | The amount of message to delete. | Integer | Yes
+| returnDeletedMessageCount | Whether to return the actual amount of deleted messages. | Boolean | No |
 
 ### Example
 ```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "clear-user",
-  code: `Successfully purged \`$clearUserMessages[$channelID;$mentioned[1];$message[1];yes]\` messages by $userTag[$mentioned[1]].
+  code: `
   $onlyIf[$mentioned[1]!=;Please mention someone. Usage: \`!clear (amount) (user)\`]
   $onlyIf[$isNumber[$message[1]]==true;Please provide how many message to clear. Usage: \`!clear (amount) (user)\`]
-  $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]`
+  $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]
+  Successfully purged \`$clearUserMessages[$channelID;$mentioned[1];$message[1];Yes]\` messages by $userTag[$mentioned[1]].`
 })
 ```

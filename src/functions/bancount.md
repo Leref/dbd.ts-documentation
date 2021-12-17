@@ -8,11 +8,11 @@ description: Returns how many users are banned in the provided guild.
 $banCount[guildID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild to return the ban count for. | snowflake | yes |
+| guildID | The guild to return the ban count for. | Snowflake | Yes |
 
 ### Example
 ```javascript

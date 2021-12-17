@@ -8,13 +8,13 @@ description: Sets an embed's footer.
 $footer[index;text;iconURL]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| index | The embed to add this footer to. | integer | yes |
-| text | The footer text. | string | yes |
-| iconURL | The footter icon URL. | string | no |
+| index | The embed to add this footer to. | Integer | Yes |
+| text | The footer text. | String | Yes |
+| iconURL | The footter icon URL. | String | No |
 
 ### Example
 ```javascript

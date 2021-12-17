@@ -5,15 +5,15 @@ description: Removes are phrases matching the provided 'queries' within 'text'.
 # $filter
 ### Usage
 ```php
-$filter[text;queries]
+$filter[text;queries;...]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :--- | :--- | :--- | :---
-| text | The text to filter. | string | yes
-| queries | The phrases to remove from 'text', separated by `;`. | string | yes
+| text | The text to filter. | String | Yes
+| queries | The phrases to remove from 'text'. | String | Yes
 
 ### Examples
 **Example #1**

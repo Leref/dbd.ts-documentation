@@ -5,14 +5,14 @@ description: Adds reactions to the author's message.
 # $addCmdReactions
 ### Usage
 ```php
-$addCmdReactions[emoji(s)]
+$addCmdReactions[emoji(s);...]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| emoji(s) | The emojis to react with, separate emojis using `;`. | string | yes |
+| emoji(s) | The emojis to react with. | String | Yes |
 
 ### Examples
 **Example #1**

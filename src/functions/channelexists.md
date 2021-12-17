@@ -1,5 +1,5 @@
 ---
-description: Returns whether or not the provided channel exists (returns true/false).
+description: Returns whether or not the provided channel exists.
 ---
 
 # $channelExists
@@ -7,8 +7,27 @@ description: Returns whether or not the provided channel exists (returns true/fa
 ```php
 $channelExists[channelID]
 ```
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to check. | snowflake | no |
+| channelID | The channel to check. | Snowflake | No |
+
+### Examples
+**Example #1**
+```javascript
+bot.commands.add({
+  type: "basicCommand",
+  name: "example",
+  code: `$channelExists[kwekdlwe]` //false
+})
+```
+
+**Example #w**
+```javascript
+bot.commands.add({
+  type: "basicCommand",
+  name: "example",
+  code: `$channelExists[919345931286110218]` //true
+})
+```

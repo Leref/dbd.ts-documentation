@@ -6,8 +6,8 @@ Shows the "_Bot_ is thinking" message. This function is for commands that may ta
 ```php
 $defer or $defer[ephemeral]
 ```
-This usage has one field.
+This usage has one param.
 
-| Field  | Description | Type | Required  |
+| Param  | Description | Type | Required  |
 | :---- | :---- | :---- | :----
-| ephemeral | Whether the interaction response should be ephemeral or not. | boolean | no |
+| ephemeral | Whether the interaction response should be ephemeral or not. | Boolean | No |

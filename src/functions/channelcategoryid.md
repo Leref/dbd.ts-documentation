@@ -11,7 +11,7 @@ This function has one fields.
 
 | Field | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to return this data for. | snowflake | no |
+| channelID | The channel to return this data for. | Snowflake | No |
 
 
 ### Example

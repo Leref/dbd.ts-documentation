@@ -8,9 +8,9 @@ description: Sets an embed's author.
 $author[index;text;icon;url]
 ```
 
-This function has four fields.
+This function has four params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
 | index | The embed to add this author to. | integer | yes |
 | text | The author text. | string | yes |

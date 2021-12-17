@@ -7,6 +7,12 @@ description: Deletes a message from a channel.
 ```php
 $deleteMessage[channelID;messageID]
 ```
+This function has two params.
+
+| Param | Description | Type | Required |
+| :--- | :--- | :--- | :--- |
+| channelID | The channel where the message is. | Snowflake | Yes
+| messageID | The message to delete. | Snowflake | Yes
 
 ### Example
 ```javascript

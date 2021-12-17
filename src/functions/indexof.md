@@ -8,12 +8,12 @@ description: Returns the character index of a 'query' within 'text'.
 $indexOf[text;query]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| text | The text that gets searched for 'query'. | string | yes |
-| query | The phrase/character to find within 'text'. | string | yes |
+| text | The text that gets searched for 'query'. | String | Yes |
+| query | The phrase/character to find within 'text'. | String | Yes |
 
 {% hint style="danger" %} Remember the case of characters in `$indexOf[]` matters (e.g. searching for a lowercase `h` within `Hello` won't work). You can use [`$toLowerCase[]`](./tolowercase.md) to negate this issue. {% endhint %}
 

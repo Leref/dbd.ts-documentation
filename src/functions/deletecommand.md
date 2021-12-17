@@ -8,11 +8,12 @@ description: Deletes the author's message.
 $deletecommand[duration]
 ```
 
-This function has one field.
+This function has one param.
 
-| Fields | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| duration | How long to wait before deleting the author's message. | time | no |
+| duration | How long to wait before deleting the author's message. **\*** | Time | No |
+**\*** Deletes the author's message instance if no `duration` is provided.
 
 ### Example
 ```javascript

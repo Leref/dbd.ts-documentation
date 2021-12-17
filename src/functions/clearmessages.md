@@ -7,21 +7,22 @@ description: Clear messages from a channel.
 ```php
 $clearMessages[channelID;amount;returnDeletedMessageCount]
 ```
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to clear messages in. | snowflake | yes |
-| amount | The amount of message to delete. | integer | yes
-| returnDeletedMessageCount | Whether to return the actual amount of deleted messages. | boolean | no |
+| channelID | The channel to clear messages in. | Snowflake | Yes |
+| amount | The amount of message to delete. | Integer | Yes
+| returnDeletedMessageCount | Whether to return the actual amount of deleted messages. | Boolean | No |
 
 ### Example
 ```javascript
 bot.commands.add({
   type: "basicCommand",
   name: "clear",
-  code: `Successfully purged \`$clearMessages[$channelID;$message;yes]\` messages.
-  $onlyIf[$isNumber[$message]==true;Please provide how many messages to clear. Usage: \`!clear (amount)\`]
-  $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]`
+  code: `
+  $onlyIf[$hasPerm[$guildID;$authorID;managemessages]==true;You need the manage_messages permission to use that!]
+  Successfully purged \`$clearMessages[$channelID;$message;yes]\` messages.
+  $onlyIf[$isNumber[$message]==true;Please provide how many messages to clear. Usage: \`!clear (amount)\`]`
 })
 ```

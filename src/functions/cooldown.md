@@ -8,13 +8,13 @@ description: Sets a cooldown.
 $cooldown[id;time;errorMessage]
 ```
 
-This function has three fields.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :---
-| id | The user, channel, or guild to assign this cooldown to. | snowflake | yes
-| duration | How long the cooldown should last. | time | yes |
-| errorMessage | The message to return when the cooldown is ongoing. | string | no
+| id | The user, channel, or guild to assign this cooldown to. | Snowflake | Yes
+| duration | How long the cooldown should last. | Time | Yes |
+| errorMessage | The message to return when the cooldown is ongoing. | String | No
 
 {% hint style="info" %} You can use `$get[time_left]` in 'errorMessage' to get how much time is left on the cooldown. {% endhint %}
 

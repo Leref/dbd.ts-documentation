@@ -7,12 +7,12 @@ description: Clones the provided channel.
 ```php
 $cloneChannel[channelID;returnChannelID]
 ```
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to clone. | snowflake | yes |
-| returnChannelID | Whether to return the ID of this newly cloned channel. | boolean | no |
+| channelID | The channel to clone. | Snowflake | Yes |
+| returnChannelID | Whether to return the ID of this newly cloned channel. | Boolean | No |
 
 ### Example
 ```javascript

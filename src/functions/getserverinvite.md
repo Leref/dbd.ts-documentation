@@ -8,11 +8,11 @@ description: Creates and returns a server's invite URL.
 $getServerInvite[guildID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| guildID | The server to create the invite in. | snowflake | yes
+| guildID | The server to create the invite in. | Snowflake | Yes
 
 
 {% hint style="warning" %}

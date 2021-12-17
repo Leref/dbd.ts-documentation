@@ -7,11 +7,11 @@ description: Returns the guild ID that this channel belongs to.
 ```php
 $channelGuildID or $channelGuildID[channelID]
 ```
-This function has one field.
+This function has one params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to return this data for. | snowflake | no |
+| channelID | The channel to return this data for. | Snowflake | No |
 
 
 ### Example

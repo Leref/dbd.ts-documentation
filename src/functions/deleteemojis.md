@@ -7,11 +7,13 @@ description: Deletes the provided emojis.
 $deleteEmojis[guildID;reason;emojiIDs]
 ```
 
-| Field | Description | Type | Required |
+This function has three params.
+
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| guildID | The guild which these emoji(s) belong to. | snowflake | yes |
-| reason | The reason for deleting these emoji(s). | string | no |
-| emojiIDs | The emojis to delete, separated by `;`. | snowflake | yes
+| guildID | The guild which these emoji(s) belong to. | Snowflake | Yes |
+| reason | The reason for deleting these emoji(s). | String | No |
+| emojiIDs | The emojis to delete, separated by `;`. | Snowflake | Yes
 
 ### Example
 ```javascript

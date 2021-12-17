@@ -7,12 +7,12 @@ description: Removes all reactions from the provided message.
 $clearAllReactions[channelID;messageID]
 ```
 
-This function has two fields.
+This function has two params.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :-----
-| channelID | The channel where message is located. | snowflake | yes
-| messageID | The message to remove reactions from. | snowflake | yes
+| channelID | The channel where message is located. | Snowflake | Yes
+| messageID | The message to remove reactions from. | Snowflake | Yes
 
 ### Example
 ```javascript

@@ -7,13 +7,13 @@ description: Sends a message to desired channel and optionally returns the messa
 ```php
 $channelSendMessage[channelID;message;returnMessageID]
 ```
-This function has three field.
+This function has three params.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| channelID | The channel to send this message to. | snowflake | yes |
-| message | The message to send. | string | yes |
-| returnMessageID | Whether to return the message ID of the new message or not. | boolean | no |
+| channelID | The channel to send this message to. | Snowflake | Yes |
+| message | The message to send. | String | Yes |
+| returnMessageID | Whether to return the message ID. | Boolean | No |
 
 ### Example
 ```javascript

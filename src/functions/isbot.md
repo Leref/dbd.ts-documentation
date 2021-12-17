@@ -8,11 +8,11 @@ description: Checks whether the user is a bot.
 $isBot[userID]
 ```
 
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required
+| Param | Description | Type | Required
 | :---- | :---- | :---- | :----
-| userID | The user to check. | snowflake | yes
+| userID | The user to check. | Snowflake | Yes
 
 ### Examples
 **Example #1**

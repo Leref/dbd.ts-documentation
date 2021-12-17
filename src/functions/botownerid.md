@@ -7,11 +7,11 @@ description: Returns the bot owner's ID.
 ```php
 $botOwnerID or $botOwnerID[separator]
 ```
-This function has one field.
+This function has one param.
 
-| Field | Description | Type | Required |
+| Param | Description | Type | Required |
 | :--- | :--- | :--- | :--- |
-| separator | The separator between each team member, applicable if the owner of this bot is a team. | string | no |
+| separator | The separator between each team member, applicable if the owner of this bot is a team. | String | No |
 
 ### Example
 ```javascript
