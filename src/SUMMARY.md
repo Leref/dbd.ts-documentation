@@ -46,6 +46,7 @@
 * [$awaitMessage](./functions/awaitmessage.md)
 * [$ban](./functions/ban.md)
 * [$banCount](./functions/bancount.md)
+* [$botCount](./functions/botcount.md)
 * [$botOwnerID](./functions/botownerid.md)
 * [$callFunction](./functions/callfunction.md)
 * [$channelCategoryID](./functions/channelcategoryid.md)
