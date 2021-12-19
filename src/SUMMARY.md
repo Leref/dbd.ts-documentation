@@ -47,6 +47,7 @@
 * [$ban](./functions/ban.md)
 * [$banCount](./functions/bancount.md)
 * [$botCount](./functions/botcount.md)
+* [$botLeave](./functions/botleave.md)
 * [$botOwnerID](./functions/botownerid.md)
 * [$callFunction](./functions/callfunction.md)
 * [$channelCategoryID](./functions/channelcategoryid.md)
