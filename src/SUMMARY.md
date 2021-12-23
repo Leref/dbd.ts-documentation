@@ -126,6 +126,7 @@
 * [$round](./functions/round.md)
 
 ## Typedefs
+* [ApplicationCommandTypes](./typedefs/applicationcommandtypes.md)
 * [ButtonStyles](./typedefs/buttonstyles.md)
 * [ComparisonSymbols](./typedefs/comparisonsymbols.md)
 * [ImageSizes](./typedefs/imagesizes.md)

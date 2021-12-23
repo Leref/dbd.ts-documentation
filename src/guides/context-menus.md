@@ -3,7 +3,7 @@ Context menus are a new, cool way to for users to interact with your bot. Contex
 
 {% hint style="success" %}
 Don't forget to add the `onInteraction` event to your main file. For example:
-```js
+```javascript
 bot.addEvent([
     "onMessage",
     "onInteraction"
@@ -11,29 +11,34 @@ bot.addEvent([
 ```
 {% endhint %}
 
-#### Creating Application Command Data
+### Creating Application Command Data
 To create a context menu application, you can use the `createApplicationCommandData` method in bot class:
 
-_Template:_
-```js
+**Template:**
+```javascript
 bot.createApplicationCommandData({
     type: "type",
     name: "name"
 })
 ```
-- [View Context Menu Types](/src/typedefs/applicationcommandtypes.md)
+> [View Context Menu Types](/src/typedefs/applicationcommandtypes.md)
 
-_Example:_
-```js
+{% hint style="warning" %}
+There can be 5 guild and 5 global context menu commands per bot.
+{% endhint %}
+
+**Example:**
+```javascript
 bot.createApplicationCommandData({
     type: "USER",
     name: "Punch"
 })
 ```
 
-#### Creating a Context Menu
-Deploy this context menu to a guild (or globally):
-_Template:_
+### Creating a Context Menu
+Deploy this context menu to a guild (or globally).
+
+**Template:**
 ```javascript
 bot.commands.add({
     name: "deploy",
@@ -47,7 +52,7 @@ bot.commands.add({
 })
 ```
 
-_Example:_
+**Example:**
 ```javascript
 bot.commands.add({
     name: "deploy",
@@ -61,10 +66,10 @@ bot.commands.add({
 })
 ```
 
-#### Responding to Context Menu Interactions
-To respond to an interaction of a context menu, you can use the `contextMenuCommand` type:
+### Responding to Context Menu Interactions
+To respond to an interaction of a context menu, you can use the `contextMenuCommand` type.
 
-_Template:_
+**Template:**
 ```javascript
 bot.commands.add({
     type: "contextMenuCommand",
@@ -74,7 +79,7 @@ Hello World`
 })
 ```
 
-_Example:_
+**Example:**
 ```javascript
 bot.commands.add({
     type: "contextMenuCommand",
