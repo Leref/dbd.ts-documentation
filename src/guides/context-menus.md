@@ -21,7 +21,7 @@ bot.createApplicationCommandData({
     name: "name"
 })
 ```
-- [View Context Menu Types](typedefs/contextmenutypes.md)
+- [View Context Menu Types](/src/typedefs/applicationcommandtypes.md)
 
 _Example:_
 ```js
@@ -34,7 +34,7 @@ bot.createApplicationCommandData({
 #### Creating a Context Menu
 Deploy this context menu to a guild (or globally):
 _Template:_
-```js
+```javascript
 bot.commands.add({
     name: "deploy",
     type: "basicCommand",
@@ -48,7 +48,7 @@ bot.commands.add({
 ```
 
 _Example:_
-```js
+```javascript
 bot.commands.add({
     name: "deploy",
     type: "basicCommand",
@@ -65,7 +65,7 @@ bot.commands.add({
 To respond to an interaction of a context menu, you can use the `contextMenuCommand` type:
 
 _Template:_
-```js
+```javascript
 bot.commands.add({
     type: "contextMenuCommand",
     name: "name",
@@ -75,7 +75,7 @@ Hello World`
 ```
 
 _Example:_
-```js
+```javascript
 bot.commands.add({
     type: "contextMenuCommand",
     name: "Punch",

@@ -5,7 +5,7 @@
 ```javascript
 bot.addStatus({
   name: "Some status details",
-  presence: "presence", //online, idle, dnd, invisable
+  presence: "presence", //online, idle, dnd, invisible
   type: "STATUS_TYPE", //PLAYING, WATCHING, COMPETING, or LISTENING
   duration: 12000 //Value in milliseconds. The interval between statuses (if multiple). Do not put anything below 12000 else your bot may be ratelimited.
 })
