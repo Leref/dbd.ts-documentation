@@ -6,4 +6,4 @@
 - danger
 - link
 
-*Referenced In: [$addButton](/src/= functions/addbutton.md)*
+*Referenced In: [$addButton](/src/functions/addbutton.md)*
