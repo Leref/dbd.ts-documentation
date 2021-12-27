@@ -5,15 +5,15 @@ Custom functions can be used as a way to condense and optimize codes.
 
 #### Creating a Custom Function
 **Template:**
-```js
-bot.createFunction({
+```javascript
+bot.createCustomFunction({
     name: "name", //The name of this custom function
     code: `code` //The code to execute when the function is called
 })
 ```
 **Example:**
-```js
-bot.createFunction({
+```javascript
+bot.createCustomFunction({
     name: "userdata",
     code: `$textSplit[$userTag&&$authorID&&$authorAvatar;&&]`
 })
@@ -23,7 +23,7 @@ bot.createFunction({
 Custom functions called using `$callFunction[]`.
 
 **Example:**
-```js
+```javascript
 bot.command({
     type: "basicCommand",
     name: "example",
